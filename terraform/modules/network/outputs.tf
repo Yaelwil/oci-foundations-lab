@@ -1,14 +1,9 @@
-################
-# Main outputs #
-################
-output "tenancy_id" {
-  description = "tenancy ocid"
-  value       = var.tenancy_id
-}
-
-output "compartment_description" {
-  description = "compartment description"
-  value = var.compartment_description
+#############
+# Main vars #
+#############
+output "compartment_id" {
+  description = "compartment id"
+  value = var.compartment_id
 }
 
 output "owner" {

@@ -6,8 +6,13 @@ variable "tenancy_id" {
   type        = string
 }
 
-variable "compartment_name" {
-  description = "compartment name"
+variable "owner" {
+  description = "owner"
+  type        = string
+}
+
+variable "project" {
+  description = "project"
   type        = string
 }
 
@@ -15,3 +20,4 @@ variable "compartment_description" {
   description = "compartment description"
   type        = string
 }
+

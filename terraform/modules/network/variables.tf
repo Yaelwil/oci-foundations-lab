@@ -1,8 +1,8 @@
 #############
 # Main vars #
 #############
-variable "tenancy_id" {
-  description = "tenancy ocid"
+variable "compartment_id" {
+  description = "compartment id"
   type        = string
 }
 
@@ -13,11 +13,6 @@ variable "owner" {
 
 variable "project" {
   description = "project"
-  type        = string
-}
-
-variable "compartment_description" {
-  description = "compartment_description"
   type        = string
 }
 
