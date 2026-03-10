@@ -53,3 +53,8 @@ variable "instance_ram_in_gb" {
   description = "instance_ram_in_gb"
   type        = number
 }
+
+variable "instance_shape" {
+  description = "instance_shape"
+  type        = string
+}

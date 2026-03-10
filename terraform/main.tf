@@ -31,6 +31,5 @@ module "resources" {
   private_subnet_id  = module.network.private_subnet_id
   instance_ocpus     = var.instance_ocpus
   instance_ram_in_gb = var.instance_ram_in_gb
-
-
+  instance_shape = var.instance_shape
 }

@@ -53,3 +53,8 @@ output "instance_ram_in_gb" {
   description = "instance_ram_in_gb"
   value = var.instance_ram_in_gb
 }
+
+output "instance_shape" {
+  description = "instance_shape"
+  value = var.instance_shape
+}
