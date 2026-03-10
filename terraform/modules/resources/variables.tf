@@ -1,6 +1,11 @@
 #############
 # Main vars #
 #############
+variable "tenancy_id" {
+  description = "OCID of the root tenancy"
+  type        = string
+}
+
 variable "compartment_id" {
   description = "compartment id"
   type        = string

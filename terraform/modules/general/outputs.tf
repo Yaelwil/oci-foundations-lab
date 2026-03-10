@@ -25,3 +25,7 @@ output "compartment_id" {
   description = "compartment description"
   value = oci_identity_compartment.demo.id
 }
+
+data "oci_identity_tenancy" "tenancy" {
+  tenancy_id = var.tenancy_id
+}

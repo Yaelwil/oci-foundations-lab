@@ -5,8 +5,6 @@ module "general" {
   owner   = var.owner
   project = var.project
   compartment_description = var.compartment_description
-
-
 }
 
 module "network" {
@@ -32,4 +30,5 @@ module "resources" {
   instance_ocpus     = var.instance_ocpus
   instance_ram_in_gb = var.instance_ram_in_gb
   instance_shape = var.instance_shape
+  tenancy_id                  = var.tenancy_id
 }

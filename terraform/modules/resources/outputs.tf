@@ -1,6 +1,11 @@
 #############
 # Main vars #
 #############
+output "tenancy_id" {
+  description = "tenancy ocid"
+  value       = var.tenancy_id
+}
+
 output "compartment_id" {
   description = "compartment id"
   value = var.compartment_id

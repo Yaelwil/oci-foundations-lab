@@ -2,7 +2,7 @@
 # Main vars #
 #############
 variable "tenancy_id" {
-  description = "tenancy ocid"
+  description = "OCID of the root tenancy"
   type        = string
 }
 

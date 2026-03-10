@@ -20,4 +20,4 @@ private_subnet_cidr_address = "10.0.2.0/24"
 
 instance_ocpus = 1
 instance_ram_in_gb = 8
-instance_shape = "VM.Standard.E4.Flex"
+instance_shape = "VM.Standard.E3.Flex"
