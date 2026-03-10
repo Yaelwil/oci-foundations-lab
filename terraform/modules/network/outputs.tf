@@ -34,3 +34,8 @@ output "private_subnet_cidr_address" {
   description = "private_subnet_cidr_address"
   value = var.private_subnet_cidr_address
 }
+
+output "private_subnet_id" {
+  description = "private_subnet_cidr_address"
+  value = oci_core_subnet.private.id
+}

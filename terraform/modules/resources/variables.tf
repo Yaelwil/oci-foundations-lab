@@ -1,8 +1,8 @@
 #############
 # Main vars #
 #############
-variable "tenancy_id" {
-  description = "tenancy ocid"
+variable "compartment_id" {
+  description = "compartment id"
   type        = string
 }
 
@@ -16,27 +16,12 @@ variable "project" {
   type        = string
 }
 
-variable "compartment_description" {
-  description = "compartment_description"
-  type        = string
-}
-
 ################
 # Network vars #
 ################
 
-variable "vcn_cidr_address" {
-  description = "vcn_cidr_address"
-  type        = string
-}
-
-variable "public_subnet_cidr_address" {
-  description = "public_subnet_cidr_address"
-  type        = string
-}
-
-variable "private_subnet_cidr_address" {
-  description = "private_subnet_cidr_address"
+variable "private_subnet_id" {
+  description = "private_subnet_id"
   type        = string
 }
 

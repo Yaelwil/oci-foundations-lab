@@ -5,3 +5,4 @@
 terraform.tfstate
 terraform.tfstate.backup
 variables.secret.tfvars
+oci_private_key.pem

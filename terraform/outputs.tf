@@ -39,3 +39,17 @@ output "private_subnet_cidr_address" {
   description = "private_subnet_cidr_address"
   value = var.private_subnet_cidr_address
 }
+
+#################
+# Instance vars #
+#################
+
+output "instance_ocpus" {
+  description = "instance_ocpus"
+  value = var.instance_ocpus
+}
+
+output "instance_ram_in_gb" {
+  description = "instance_ram_in_gb"
+  value = var.instance_ram_in_gb
+}
