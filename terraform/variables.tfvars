@@ -21,3 +21,10 @@ private_subnet_cidr_address = "10.0.2.0/24"
 instance_ocpus = 1
 instance_ram_in_gb = 8
 instance_shape = "VM.Standard.E3.Flex"
+
+###################
+# Autonomous vars #
+###################
+
+adb_db_name                 = "demodb"
+adb_display_name            = "demoadb"

@@ -58,3 +58,23 @@ output "instance_shape" {
   description = "instance_shape"
   value = var.instance_shape
 }
+
+###################
+# Autonomous vars #
+###################
+
+output "adb_admin_password" {
+  description = "Admin password for the Autonomous Database"
+  value = var.adb_admin_password
+  sensitive   = true
+}
+
+output "adb_db_name" {
+  description = "adb_db_name"
+  value = var.adb_db_name
+}
+
+output "adb_display_name" {
+  description = "adb_display_name"
+  value = var.adb_display_name
+}

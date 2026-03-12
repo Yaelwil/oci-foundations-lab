@@ -58,3 +58,22 @@ variable "instance_shape" {
   description = "instance_shape"
   type        = string
 }
+
+###################
+# Autonomous vars #
+###################
+
+variable "adb_admin_password" {
+  description = "Admin password for the Autonomous Database"
+  type        = string
+  sensitive   = true
+}
+
+variable "adb_db_name" {
+    type        = string
+}
+
+variable "adb_display_name" {
+  default = "adb-demo"
+  type        = string
+}

@@ -20,5 +20,7 @@ resource "oci_core_subnet" "private" {
 
   display_name = "${var.owner}-private-subnet-${var.project}"
 
+  security_list_ids = [oci_core_security_list.private_sl.id]
+
   prohibit_public_ip_on_vnic = true
 }

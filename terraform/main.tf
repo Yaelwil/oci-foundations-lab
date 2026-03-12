@@ -31,4 +31,9 @@ module "resources" {
   instance_ram_in_gb = var.instance_ram_in_gb
   instance_shape = var.instance_shape
   tenancy_id                  = var.tenancy_id
+  demo_compartment_name       = module.general.demo_compartment_name
+  adb_admin_password          = var.adb_admin_password
+  adb_db_name                 = var.adb_db_name
+  adb_display_name            = var.adb_display_name
+  public_subnet_id            = module.network.public_subnet_id
 }

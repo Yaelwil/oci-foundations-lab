@@ -19,6 +19,6 @@ resource "oci_identity_policy" "dg_policy_demo" {
   description    = "Dynamic Group IAM policy for demo compartment"
 
   statements = [
-    "Allow dynamic-group ${oci_identity_dynamic_group.demo.name} to manage object-family in compartment ${var.compartment_id}"
+    "Allow dynamic-group ${oci_identity_dynamic_group.demo.name} to manage object-family in compartment ${var.demo_compartment_name}"
   ]
 }
